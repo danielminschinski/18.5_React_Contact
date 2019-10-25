@@ -8,7 +8,7 @@ var Contact = React.createClass({
 			React.createElement('div', {className: 'contactItem'},
 				React.createElement('img', {
 					className: 'contactImage',
-					src: 'http://icons.veryicon.com/png/System/Micro/User.png'
+					src: 'https://taxi-smart.pl/wp-content/uploads/2018/07/businessman-1.png'
 				}),
 				React.createElement('p', {className: 'contactLabel'}, 'Imię: ' + this.props.item.firstName),
 				React.createElement('p', {className: 'contactLabel'}, 'Nazwisko: ' + this.props.item.lastName),
